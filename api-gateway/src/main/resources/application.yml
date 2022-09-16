@@ -1,0 +1,63 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
+server:
+  port: 8080
+
+spring:
+  application:
+    name: apigateway
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+            exposedHeaders: "*"
+      routes:
+        - id: userservice
+          uri: lb://userservice
+          predicates:
+            - Path=/userservice/**
+          filters:
+            - RewritePath=/userservice(?<segment>/?.*), $\{segment}
+
+        - id: tagservice
+          uri: lb://tagservice
+          predicates:
+            - Path=/tagservice/**
+          filters:
+            - RewritePath=/tagservice(?<segment>/?.*), $\{segment}
+
+        - id: interviewerservice
+          uri: lb://interviewerservice
+          predicates:
+            - Path=/interviewerservice/**
+          filters:
+            - RewritePath=/interviewerservice(?<segment>/?.*), $\{segment}
+
+        - id: emailservice
+          uri: lb://emailservice
+          predicates:
+            - Path=/emailservice/**
+          filters:
+            - RewritePath=/emailservice(?<segment>/?.*), $\{segment}
+
+        - id: authenticationservice
+          uri: lb://authenticationservice
+          predicates:
+            - Path=/authenticationservice/**
+          filters:
+            - RewritePath=/authenticationservice(?<segment>/?.*), $\{segment}
+
+        - id: pickyourslotwebapp
+          uri: lb://pickyourslotwebapp
+          predicates:
+            - Path=/**
+          filters:
+            - RewritePath=(?<segment>/?.*), $\{segment}

@@ -1,0 +1,382 @@
+{
+  "login": [
+    {
+      "email": "mayank@gmail.com",
+      "password": "johnny1@US.gov",
+      "id": 1
+    },
+    {
+      "email": "mayank@gmail.com",
+      "password": "johnny1@US.gov",
+      "id": 2
+    },
+    {
+      "email": "johnny1@gmail.com",
+      "password": "mayank@us.gov",
+      "id": 3
+    },
+    {
+      "email": "johnny1@gmail.com",
+      "password": "mayank@us.gov",
+      "id": 4
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 5
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 6
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 7
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 8
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 9
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 10
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 11
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 12
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 13
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 14
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 15
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 16
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 17
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 18
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "mayankasdf",
+      "id": 19
+    }
+  ],
+  "registerTagTeam": [
+    {
+      "email": "mayankf599@gmail.com",
+      "mamberName": "mayank bahuguna",
+      "teamName": "teamus",
+      "password": "password",
+      "id": 1
+    }
+  ],
+  "registerInterviewer": [
+    {
+      "email": "mayank@gmail.com",
+      "password": "password",
+      "name": "mayank",
+      "techTrack": "1",
+      "id": 1
+    },
+    {
+      "email": "mayank@gmail.com",
+      "password": "password",
+      "name": "mayank",
+      "techTrack": "noSelect",
+      "id": 2
+    }
+  ],
+  "InterviewSlots": [
+    {
+      "id": 1,
+      "slotId": "1",
+      "emailId": "abc@gmail.co",
+      "interviewerName": "Amit",
+      "slotDate": "15-Apr-2022",
+      "startTime": "10AM",
+      "endTime": "11AM",
+      "interviewDesc": "Python",
+      "techTrack": "Frontend",
+      "slotStatus": "Past"
+    },
+    {
+      "id": 2,
+      "slotId": "2",
+      "emailId": "abcty@gmail.co",
+      "interviewerName": "Amit",
+      "slotDate": "17-Apr-2022",
+      "startTime": "11AM",
+      "endTime": "12AM",
+      "interviewDesc": "Java",
+      "techTrack": "Backend",
+      "slotStatus": "Canceled"
+    },
+    {
+      "id": 3,
+      "slotId": "3",
+      "emailId": "678Avb@gmail.com",
+      "interviewerName": "Amit",
+      "slotDate": "09-Apr-2022",
+      "startTime": "10AM",
+      "endTime": "11AM",
+      "interviewDesc": "Angular",
+      "techTrack": "Frontend",
+      "slotStatus": "Booked"
+    },
+    {
+      "id": 4,
+      "slotId": "4",
+      "emailId": "abc@gmail.co",
+      "interviewerName": "Amit",
+      "slotDate": "8-Apr-2022",
+      "startTime": "10AM",
+      "endTime": "11AM",
+      "interviewDesc": "Python",
+      "techTrack": "Frontend",
+      "slotStatus": "Canceled"
+    },
+    {
+      "id": 5,
+      "slotId": "5",
+      "emailId": "678Avb@gmail.co",
+      "interviewerName": "Amit",
+      "slotDate": "18-Apr-2022",
+      "startTime": "10AM",
+      "endTime": "11AM",
+      "interviewDesc": "Angular",
+      "techTrack": "Frontend",
+      "slotStatus": "Canceled"
+    },
+    {
+      "id": 6,
+      "slotId": "6",
+      "emailId": "67Avb@gmail.co",
+      "interviewerName": "Amit",
+      "slotDate": "16-Apr-2022",
+      "startTime": "11AM",
+      "endTime": "12AM",
+      "interviewDesc": "Angular",
+      "techTrack": "Frontend",
+      "slotStatus": "Past"
+    }
+  ],
+  "BookedSlots": [
+    {
+      "id": 1,
+      "bookedSlotId": "1",
+      "tagMemberEmailId": "anb@gmail.com",
+      "tagMemberName": "Ankit Ghosh",
+      "tagTeamName": "QA Engineer",
+      "slotBookedDate": "10-Apr-2022",
+      "slotDate": "08-Apr-2022",
+      "startTime": "11AM",
+      "endTime": "12AM",
+      "techTrack": "Backend",
+      "interviewDesc": "Java",
+      "intervierName": "Amit",
+      "interviewerEmailId": "amit.singh112@gmail.com",
+      "slotStatus": "Canceled"
+    },
+    {
+      "id": 2,
+      "bookedSlotId": "2",
+      "tagMemberEmailId": "anb@gmail.com",
+      "tagMemberName": "Aman Tiwari",
+      "tagTeamName": "Software Developer",
+      "slotBookedDate": "10-Apr-2022",
+      "slotDate": "17-Apr-2022",
+      "startTime": "10AM",
+      "endTime": "11AM",
+      "techTrack": "Frontend",
+      "interviewDesc": "Angular",
+      "intervierName": "Ankit",
+      "interviewerEmailId": "Rishabh.Sinha12390@gmail.com",
+      "slotStatus": "Canceled",
+      "slotId": "5",
+      "emailId": "678Avb@gmail.co",
+      "interviewerName": "Amit"
+    },
+    {
+      "id": 3,
+      "bookedSlotId": "3",
+      "tagMemberEmailId": "anb@gmail.com",
+      "tagMemberName": "Aanya Pandey",
+      "tagTeamName": "Python Developer",
+      "slotBookedDate": "10-Apr-2022",
+      "slotDate": "18-Apr-2022",
+      "startTime": "11AM",
+      "endTime": "12AM",
+      "techTrack": "Frontend",
+      "interviewDesc": "Java",
+      "intervierName": "Ananya",
+      "interviewerEmailId": "Sinha.Rishabh123456@gmail.com",
+      "slotStatus": "Booked"
+    },
+    {
+      "id": 4,
+      "bookedSlotId": "4",
+      "tagMemberEmailId": "anb@gmail.com",
+      "tagMemberName": "Ankit Ghosh",
+      "tagTeamName": "Java Backend",
+      "slotBookedDate": "10-Apr-2022",
+      "slotDate": "17-Apr-2022",
+      "startTime": "10AM",
+      "endTime": "11AM",
+      "techTrack": "Frontend",
+      "interviewDesc": "Angular",
+      "intervierName": "Amita",
+      "interviewerEmailId": "Singh.AnkitaAmit@gmail.com",
+      "slotStatus": "Booked",
+      "slotId": "5",
+      "emailId": "678Avb@gmail.co",
+      "interviewerName": "Amit"
+    },
+    {
+      "id": 5,
+      "bookedSlotId": "5",
+      "tagMemberEmailId": "anb@gmail.com",
+      "tagMemberName": "Ankit Ghansela",
+      "tagTeamName": "Full Stack",
+      "slotBookedDate": "10-Apr-2022",
+      "slotDate": "17-Jun-2022",
+      "startTime": "11AM",
+      "endTime": "12AM",
+      "techTrack": "Backend",
+      "interviewDesc": "Java",
+      "intervierName": "Amit",
+      "interviewerEmailId": "Rishabh.Srivastava123@gmail.com",
+      "slotStatus": "Booked"
+    },
+    {
+      "id": 6,
+      "bookedSlotId": "6",
+      "tagMemberEmailId": "anb@gmail.com",
+      "tagMemberName": "Ankita Mukherjee",
+      "tagTeamName": "MERN Stack",
+      "slotBookedDate": "10-Apr-2022",
+      "slotDate": "08-Apr-2022",
+      "startTime": "11AM",
+      "endTime": "12AM",
+      "techTrack": "Backend",
+      "interviewDesc": "Java",
+      "intervierName": "Amit",
+      "interviewerEmailId": "9899006789148787578@gmail.com",
+      "slotStatus": "Booked"
+    },
+    {
+      "id": 7,
+      "bookedSlotId": "7",
+      "tagMemberEmailId": "anb@gmail.com",
+      "tagMemberName": "Annanya Mukherjee",
+      "tagTeamName": "MEAN Stack",
+      "slotBookedDate": "10-Apr-2022",
+      "slotDate": "18-May-2022",
+      "startTime": "11AM",
+      "endTime": "12AM",
+      "techTrack": "Backend",
+      "interviewDesc": "Java",
+      "intervierName": "Amit",
+      "interviewerEmailId": "Ankita.menon45Januraty@gmail.com",
+      "slotStatus": "Booked"
+    },
+    {
+      "bookedSlotId": "8",
+      "tagMemberEmailId": "anb@gmail.com",
+      "tagMemberName": "Ankit Ghosh",
+      "tagTeamName": "Mern Stack",
+      "slotBookedDate": "26-Mar-2022",
+      "slotDate": "15-Apr-2022",
+      "startTime": "10AM",
+      "endTime": "11AM",
+      "techTrack": "Frontend",
+      "interviewDesc": "Python",
+      "intervierName": "Amit",
+      "interviewerEmailId": "Rishabhabc@gmail.co",
+      "slotStatus": "Booked",
+      "id": 8
+    },
+    {
+      "bookedSlotId": "9",
+      "tagMemberEmailId": "anb@gmail.com",
+      "tagMemberName": "Ankit Ghosh",
+      "tagTeamName": "Full Stack",
+      "slotBookedDate": "26-Mar-2022",
+      "slotDate": "15-Apr-2022",
+      "startTime": "10AM",
+      "endTime": "11AM",
+      "techTrack": "Frontend",
+      "interviewDesc": "Python",
+      "intervierName": "Amit",
+      "interviewerEmailId": "abRisinhac@gmail.co",
+      "slotStatus": "Booked",
+      "id": 9
+    },
+    {
+      "bookedSlotId": "10",
+      "tagMemberEmailId": "anb@gmail.com",
+      "tagMemberName": "Ankit Ghosh",
+      "tagTeamName": "Mean Stack",
+      "slotBookedDate": "26-Mar-2022",
+      "slotDate": "15-Apr-2022",
+      "startTime": "10AM",
+      "endTime": "11AM",
+      "techTrack": "Frontend",
+      "interviewDesc": "Python",
+      "intervierName": "Amit",
+      "interviewerEmailId": "abvvjhfjhRishabhc@gmail.co",
+      "slotStatus": "Booked",
+      "id": 10
+    },
+    {
+      "bookedSlotId": "11",
+      "tagMemberEmailId": "anb@gmail.com",
+      "tagMemberName": "Ankit Ghosh",
+      "tagTeamName": "Java Developer",
+      "slotBookedDate": "26-Mar-2022",
+      "slotDate": "15-Apr-2022",
+      "startTime": "10AM",
+      "endTime": "11AM",
+      "techTrack": "Frontend",
+      "interviewDesc": "Python",
+      "intervierName": "Amit",
+      "interviewerEmailId": "abcbvkh.dagvkDVK@gmail.com",
+      "slotStatus": "Booked",
+      "id": 11
+    }
+  ]
+}

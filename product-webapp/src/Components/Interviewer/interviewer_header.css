@@ -1,0 +1,15 @@
+.profilebtn{
+    width: 70px;
+}
+.navHeadingclass{
+    font-size: 25px;
+}
+.navLogolass{
+    font-size: 23px;
+}
+.navHeadingclass:hover{
+    background-color: rgb(168, 162, 162);
+}
+.handleNav{
+    height: 70px;
+}

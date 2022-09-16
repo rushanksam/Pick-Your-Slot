@@ -1,0 +1,54 @@
+.cardDisplay{
+    width: 100%;
+    margin: 35px;
+    cursor: pointer;
+    min-height: 650px;
+    max-height: 650px;
+    border-width: 2px;
+    background-color: whitesmoke;
+}
+.cardDisplay:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.cardBody{
+    display: flex;
+    justify-content: center;
+}
+.cardText{
+    margin-top: 20px;
+    width: 60%;
+    word-wrap: "break-word";
+}
+.cardDetails{
+    font-size: 20px;
+    font-weight: 400;
+}
+.cardDiv{
+    text-align: center;
+}
+.profileImage{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+.modalBody{
+    margin:20px;
+}
+.calendarIcon{
+    font-size: 25px;
+    margin-left: 15px;
+}
+/* .accordianItem{
+    border: 1px solid grey;
+    margin: '15px';
+
+} */
+.accordianHeader{
+    margin-left: 55%;
+    text-align: right;
+}
+.accordianBody{
+    display: flex;
+    flex-direction: row;
+}

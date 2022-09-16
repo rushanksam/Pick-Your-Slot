@@ -1,0 +1,37 @@
+.logo{
+    width: 300px;
+    height: 80px;
+}
+.is-sticky {
+    position:sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: #ffffff !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.headMain{
+    padding: 10px 40px;
+    /* margin-right: 0; */
+}
+@media (max-width: 768px) {
+    .logo{
+        width: 150px;
+        height: 50px;
+    }
+}
+.signupbtn{
+    margin-top: 17px;
+}
+
+/* .btnsignup{
+    align-conte;
+} */
+
+.signup{
+    margin-top: 20px;
+}

@@ -1,0 +1,81 @@
+{
+    "interviewerProfile": [
+      {
+        "interviewerName": "Abhishek",
+ 	    "interviewerEmailId": "101",
+    	"userPassword": "a123n!",
+    	"profileImage": "String",
+    	"phoneNumber": "9876543210",
+    	"techTrack": "Java",
+    	"experience": "3.0",
+    	"workLocation": "Gurgaon",
+    	"aboutMe": "String"
+      },
+      {
+        "interviewerName": "Rakesh",
+ 	    "interviewerEmailId": "abc@gmail.com",
+    	"userPassword": "a123x!",
+    	"profileImage": "String",
+    	"phoneNumber": "9876543310",
+    	"techTrack": "JavaScript",
+    	"experience": "4.3",
+    	"workLocation": "Delhi",
+    	"aboutMe": "String"
+      }, 
+	  {
+        "interviewerName": "Siddhant",
+ 	    "interviewerEmailId": "xyzsbhjsdbhdbhubdeu7hbfuhbufkjnjknkn@gmail.com",
+    	"userPassword": "a123x!",
+    	"profileImage": "String",
+    	"phoneNumber": "9876543310",
+    	"techTrack": "JavaScript",
+    	"experience": "4.3",
+    	"workLocation": "Delhi",
+    	"aboutMe": "String"
+      }, 
+	  {
+        "interviewerName": "Parag",
+ 	    "interviewerEmailId": "qwe@gmail.com",
+    	"userPassword": "a123x!",
+    	"profileImage": "String",
+    	"phoneNumber": "9876543310",
+    	"techTrack": "JavaScript",
+    	"experience": "4.3",
+    	"workLocation": "Delhi",
+    	"aboutMe": "String"
+      }, 
+	  {
+        "interviewerName": "Dhruv",
+ 	    "interviewerEmailId": "dhr@gmail.com",
+    	"userPassword": "a123x!",
+    	"profileImage": "String",
+    	"phoneNumber": "9876543310",
+    	"techTrack": "JavaScript",
+    	"experience": "4.3",
+    	"workLocation": "Delhi",
+    	"aboutMe": "String"
+      }, 
+      {
+        "interviewerName": "Sam",
+ 	    "interviewerEmailId": "103",
+    	"userPassword": "x123n!",
+    	"profileImage": "String",
+    	"phoneNumber": "9876343210",
+    	"techTrack": "Backend",
+    	"experience": "5.0",
+    	"workLocation": "Noida",
+    	"aboutMe": "String"
+      },
+      {
+        "interviewerName": "Hrithik",
+ 	    "interviewerEmailId": "104",
+    	"userPassword": "a123r!",
+    	"profileImage": "String",
+    	"phoneNumber": "9876443210",
+    	"techTrack": "React",
+    	"experience": "3.5",
+    	"workLocation": "Gurgaon",
+    	"aboutMe": "String"
+      }
+    ]
+}

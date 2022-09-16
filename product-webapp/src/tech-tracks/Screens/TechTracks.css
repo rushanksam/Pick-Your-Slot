@@ -1,0 +1,19 @@
+.heading{
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 150px;
+    font-size: 2.5em;
+}
+.techtracksDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
+    text-align: left;
+    margin-left: 60px;
+   
+}

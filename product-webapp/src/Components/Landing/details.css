@@ -1,0 +1,40 @@
+.welcomeLogo{
+    width: 100%;
+    height: 100%;
+}
+.heading-main{
+    color: rgb(32, 166, 211);
+}
+.heading-sub{
+    text-align: left;
+    color: rgb(32, 166, 211);
+}
+.btnsign{
+    margin: 10px;
+    width: 350px;
+}
+.maindiv3{
+    margin-top: 20px;
+}
+.desc-div{
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .desktopScreen{
+        display:flex;
+    }
+    .smallscreen{
+        display:none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .desktopScreen{
+        display:none;
+    }
+    .smallscreen{
+        display:flex;
+    }
+}

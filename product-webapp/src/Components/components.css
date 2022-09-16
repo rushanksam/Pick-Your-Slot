@@ -1,0 +1,295 @@
+
+.MuiSnackbar-anchorOriginTopCenter {
+  top: 24px;
+  left: 50%;
+  right: 50% !important;
+  transform: translateX(-50%);
+}
+.col-4 :hover {
+  transform: scale(1.03);
+}
+
+#navbarScroll {
+  font-size: 30px;
+  flex-grow: 0;
+}
+.logo1 {
+  height: 80px;
+  margin-left: 8%;
+  width: 100%;
+}
+.logo2 {
+  height: 50px;
+  border-radius: 44%;
+  width: 27%;
+}
+.profileLogo {
+  margin-top: 4%;
+}
+.navside .nav-link {
+  color: black !important;
+}
+.nav {
+  margin-right: 30px;
+}
+.my-availability {
+  padding: 8px 40px !important;
+}
+.button {
+  margin-top: 12% !important;
+  margin-bottom: 5%;
+}
+
+.button .btn {
+  padding: 6px 40px;
+  margin: 0% 1%;
+  font-size: 25px;
+  color: black !important;
+}
+.cancel-button{
+  background-color: white;
+  color: black;
+}
+.row .card .card-body {
+  text-align: center;
+}
+.row .card {
+  margin-bottom: 15%;
+}
+
+.main-card .card {
+  /* background-color: #add8e67a; */
+}
+.fa-solid {
+  margin-right: 15px;
+  width: 9%;
+}
+.tag-email .fa-solid {
+  width: 5%;
+}
+.techTrack {
+  text-align: left;
+  margin-left: 2.8%;
+  font-weight: 300;
+}
+.date {
+  width: 50% !important;
+  padding: 0px !important;
+  font-weight: 300;
+}
+.time {
+  width: 50% !important;
+  padding: 0px !important;
+  font-weight: 300;
+}
+.name {
+  text-align: left;
+  margin-left: 2.8%;
+  font-weight: bold;
+}
+.tagTeamname {
+  font-weight: 300;
+  text-align: left;
+  margin-left: 2.8%;
+}
+.tag-name {
+  text-align: left;
+  margin-left: 2.8%;
+  font-weight: 300;
+  font-weight: bold;
+  white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+.tag-techtrack {
+  width: 45% !important;
+  text-align: right;
+}
+.tag-email {
+  text-align: left;
+  margin-left: 2.8%;
+  font-weight: 300;
+}
+.interview-cancel-modal {
+  margin-top: 16%;
+}
+.tag-cancel-modal {
+  margin-top: 16%;
+}
+.cncl-button {
+  text-align: right;
+}
+.row .date-time {
+  margin-top: 9%;
+  margin-bottom: 9%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.past-btn {
+  background-color: yellow !important;
+}
+.upcoming-btn {
+  background-color: lightgreen !important;
+}
+.cancel-btn {
+  background-color: red !important;
+}
+.search-form {
+  margin-left: 39%;
+}
+.search-form-tag {
+  margin-left: 14%;
+}
+.search-tag-tech {
+  margin-right: 37px;
+}
+.search-form-tag .search-tag {
+  margin-right: 50px;
+}
+.resetButtonInterview {
+  margin-left: 23px;
+}
+
+/* Mobile View */
+@media screen and (min-width: 375px) and (max-width: 800px) {
+  .MuiSnackbar-root{
+    left:52% !important;
+    width: 50%;
+  }
+  .MuiSnackbarContent-message{
+    text-align: center;
+    width: 100%;
+  }
+  .MuiSnackbar-anchorOriginTopCenter {
+    top: 32px !important;
+}
+  
+  .container {
+    overflow-x: hidden;
+  }
+  .dashboard {
+    margin-right: -7%;
+  }
+  .logo1 {
+    height: 80px;
+    margin-left: 4%;
+    width: 248px;
+  }
+  .my-availability {
+    padding: 0px 0px !important;
+  }
+  .navbar-nav-scroll {
+    margin-left: 4%;
+  }
+  a {
+    font-size: 23px;
+  }
+  .button {
+    margin-top: 37% !important;
+    margin-bottom: 5%;
+  }
+  .button .btn {
+    padding: 6px 11px;
+    margin: 0% 1%;
+    font-size: 23px;
+  }
+  .col-4 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .row .date-time h4 {
+    font-size: 20px;
+  }
+  .search-form {
+    margin-left: 11%;
+  }
+  .search-form-tag .search-tag {
+    margin-right: 18px;
+  }
+  .search-form-tag {
+    margin-left: 3%;
+  }
+  .form-select {
+    font-size: 16px;
+  }
+  .resetButton {
+    margin-left: 81%;
+    margin-top: 6%;
+  }
+  .search-tag-tech {
+    width: 40%;
+  }
+  .search-tag-tech {
+    margin-right: 0px;
+  }
+  .tag-cancel-modal {
+    margin-top: 66%;
+  }
+  .interview-cancel-modal {
+    margin-top: 66%;
+  }
+}
+
+/* TAB VIEW */
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+  .dashboard {
+    margin-right: -7%;
+  }
+  .my-availability {
+    padding: 0px 0px !important;
+  }
+  .navbar-nav-scroll {
+    margin-left: 1%;
+  }
+  a {
+    font-size: 23px;
+  }
+  #navbarScroll {
+    margin-left: 3% !important;
+  }
+  .button {
+    margin-top: 21% !important;
+    margin-bottom: 5%;
+  }
+  .button .btn {
+    padding: 6px 22px;
+    margin: 0% 1%;
+    font-size: 23px;
+    color: black !important;
+  }
+  .col-4 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .row .date-time h4 {
+    font-size: 20px;
+  }
+  .search-form {
+    margin-left: 9%;
+  }
+  .search-form-tag {
+    margin-left: 24%;
+  }
+  .search-form-tag .search-tag {
+    margin-right: 10px;
+  }
+  .form-select {
+    font-size: 16px;
+  }
+  .tag-cancel-modal {
+    margin-top: 38%;
+  }
+  .interview-cancel-modal {
+    margin-top: 38%;
+  }
+  .search-form-tag {
+    margin-left: 0.5%;
+}
+.search-tag-tech {
+  margin-right: 37px;
+  width: 25%;
+}
+}

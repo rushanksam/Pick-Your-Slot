@@ -1,0 +1,55 @@
+.updateslot{
+    margin: 10%;
+}
+.heading-sub-update{
+    text-align: left;
+    margin-left: 30px;
+    color: rgb(32, 166, 211);
+}
+.heading-sub2{
+    text-align: left;
+    margin-left: 30px;
+    color: green;
+}
+
+
+.cardDiv{
+    margin-top: 10px;
+    width: 80%;
+
+}
+.newsList{
+    list-style: none;
+    display: flexbox;
+    /* margin-top: 20%; */
+}
+img{
+    height: 120px;
+    width: 130px;
+}
+.cardDiv{
+    padding: 10px;
+    border-radius: 10px;
+}
+.cardDivAvail{
+    margin: 10px;
+    width: 88%;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* .heading-sub{
+    text-align: center;
+}
+.heading-sub2{
+    text-align: center;
+    color: green;
+} */
+.bookedLable{
+    color: green;
+}
+.deleteLable{
+    color: red;
+}
+.errorMsg{
+    color: red;
+}

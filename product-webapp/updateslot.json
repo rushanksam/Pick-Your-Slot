@@ -1,0 +1,202 @@
+{
+  "InterviewSlots": [
+    {
+      "slotId": 1,
+      "emailId": "name@gmail.com",
+      "interviewerName": "John",
+      "slotDate": "14-4-2022",
+      "startTime": "10am",
+      "endTime": "11am",
+      "interviewDesc": "some desc",
+      "techTrack": "Javascript",
+      "slotStatus": "booked",
+      "id": 1
+    },
+    {
+      "slotDate": "14-4-2022",
+      "startTime": "9am",
+      "endTime": "10am",
+      "slotStatus": "active",
+      "id": 3
+    },
+    {
+      "slotDate": "14-4-2022",
+      "startTime": "10am",
+      "endTime": "12pm",
+      "slotStatus": "active",
+      "id": 4
+    },
+    {
+      "slotDate": "14-4-2022",
+      "startTime": "12pm",
+      "endTime": "1pm",
+      "slotStatus": "active",
+      "id": 5
+    },
+    {
+      "slotDate": "28-4-2022",
+      "startTime": "9am",
+      "endTime": "10am",
+      "slotStatus": "active",
+      "id": 9
+    },
+    {
+      "slotDate": "29-4-2022",
+      "startTime": "6am",
+      "endTime": "7am",
+      "slotStatus": "active",
+      "id": 10
+    },
+    {
+      "slotDate": "19-4-2022",
+      "startTime": "5pm",
+      "endTime": "6pm",
+      "slotStatus": "active",
+      "id": 14
+    },
+    {
+      "slotDate": "19-4-2022",
+      "startTime": "6am",
+      "endTime": "7am",
+      "slotStatus": "active",
+      "id": 15
+    },
+    {
+      "slotDate": "19-4-2022",
+      "startTime": "7am",
+      "endTime": "8am",
+      "slotStatus": "booked",
+      "id": 16
+    },
+    {
+      "slotDate": "20-4-2022",
+      "startTime": "8am",
+      "endTime": "9am",
+      "slotStatus": "active",
+      "id": 17
+    },
+    {
+      "slotDate": "28-4-2022",
+      "startTime": "7am",
+      "endTime": "8am",
+      "slotStatus": "active",
+      "id": 18
+    },
+    {
+      "slotDate": "20-4-2022",
+      "startTime": "12pm",
+      "endTime": "7am",
+      "slotStatus": "active",
+      "id": 19
+    },
+    {
+      "slotDate": "20-4-2022",
+      "startTime": "5pm",
+      "endTime": "8pm",
+      "slotStatus": "active",
+      "id": 20
+    },
+    {
+      "slotDate": "22-4-2022",
+      "startTime": "6am",
+      "endTime": "8am",
+      "slotStatus": "active",
+      "id": 21
+    },
+    {
+      "slotDate": "19-5-2022",
+      "startTime": "6am",
+      "endTime": "7am",
+      "slotStatus": "active",
+      "id": 22
+    },
+    {
+      "slotDate": "10-5-2022",
+      "startTime": "8am",
+      "endTime": "9am",
+      "slotStatus": "active",
+      "id": 24
+    },
+    {
+      "slotDate": "5-5-2022",
+      "startTime": "6am",
+      "endTime": "7am",
+      "slotStatus": "active",
+      "id": 25
+    },
+    {
+      "slotDate": "17-5-2022",
+      "startTime": "6am",
+      "endTime": "7am",
+      "slotStatus": "active",
+      "id": 27
+    },
+    {
+      "slotDate": "5-5-2022",
+      "startTime": "3pm",
+      "endTime": "4pm",
+      "slotStatus": "active",
+      "id": 28
+    },
+    {
+      "slotId": "",
+      "emailId": null,
+      "InterviewerName": "Interviewer",
+      "interviewerDesc": "Description",
+      "techTrack": "Backend",
+      "slotDate": "5-5-2022",
+      "startTime": "6pm",
+      "endTime": "7pm",
+      "slotStatus": "Available",
+      "id": 29
+    },
+    {
+      "slotId": "",
+      "emailId": null,
+      "InterviewerName": "Interviewer",
+      "interviewerDesc": "Description",
+      "techTrack": "Backend",
+      "slotDate": "31-5-2022",
+      "startTime": "10pm",
+      "endTime": "11pm",
+      "slotStatus": "Available",
+      "id": 36
+    },
+    {
+      "slotId": "",
+      "emailId": null,
+      "InterviewerName": "Interviewer",
+      "interviewerDesc": "Description",
+      "techTrack": "Backend",
+      "slotDate": "31-5-2022",
+      "startTime": "2pm",
+      "endTime": "3pm",
+      "slotStatus": "Available",
+      "id": 38
+    },
+    {
+      "slotId": "",
+      "emailId": null,
+      "InterviewerName": "Interviewer",
+      "interviewerDesc": "Description",
+      "techTrack": "Backend",
+      "slotDate": "16-6-2022",
+      "startTime": "7am",
+      "endTime": "8am",
+      "slotStatus": "Available",
+      "id": 39
+    },
+    {
+      "slotId": "",
+      "emailId": null,
+      "InterviewerName": "Interviewer",
+      "interviewerDesc": "Description",
+      "techTrack": "Backend",
+      "slotDate": "9-5-2022",
+      "startTime": "6am",
+      "endTime": "7am",
+      "slotStatus": "Available",
+      "id": 40
+    }
+  ]
+}

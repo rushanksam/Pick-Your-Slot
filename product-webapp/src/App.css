@@ -1,0 +1,346 @@
+/***********  LOGIN AND REGISTRATION START *********/
+
+
+/**
+ * @author [mayank bahuguna]
+ * @email [mayank.bahuguna2@globallogic.com]
+ * @create date 2022-04-12 14:55:07
+ * @modify date 2022-04-12 14:55:07
+ * @desc [styles for login and registration pages]
+ */
+
+.image-section {
+  background: url("../public/assets/banner-image/background.png") no-repeat center center fixed; 
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.carousel-inner > .carousel-item > img {
+  width:300px;
+  height:300px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.carousel-item h2 {
+  color: white;
+  margin-top: 50px;
+}
+
+.carousel-inner > .carousel-item > .conflict {
+  width:500px;
+  height:300px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-inner {
+  margin-top: 300px;
+}
+
+.main-logo-left {
+  position:absolute;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 200px;
+  height: 50px;
+}
+
+.main-logo {
+  margin-bottom: 40px;
+  height: 40px;
+  width: 150px;
+}
+
+.login-container {
+  background-color: white;
+  overflow: auto;
+}
+
+.login-container p {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #525252;
+  margin-right: auto;
+ 
+}
+
+.login-row {
+  height: auto;
+}
+
+.login-divider {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 16px;
+  color: grey;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.login-divider span {
+  margin: 0 auto;
+}
+
+.login-text-input {
+  align-items: center;
+  padding: 13px 10px;
+  height: 45px;
+  border: 1px solid #DED2D9;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 350px;
+}
+
+.tech-track-select {
+  align-items: center;
+  padding: 13px 10px;
+  height: 45px;
+  border: 1px solid #DED2D9;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 350px;
+}
+
+.google-login-button {
+  border: 1px solid #828282;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #FFFFFF;
+ 
+  height: 45px;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.google-login-button img {
+  margin-right: 30px;
+}
+
+.login-label {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  color: #828282;
+  margin-bottom: 8px;
+  margin-top:10px;
+}
+
+.signup-radio-option{
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  color: #828282;
+  margin-bottom: 8px;
+  margin-top:10px;
+  margin-bottom: 200px;
+}
+
+.google-signin-span {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: grey;
+}
+
+.login-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 10px 12px;
+  height: 50px;
+  background: #7F265B;
+  border-radius: 6px;
+  margin: 32px 0px;
+  width: 355px;
+  color: white;
+  font-size: 20px;
+}
+
+.login-button-span {
+  width: 48px;
+  height: 25px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  margin: 0px 13px;
+  color: #FFFFFF;
+}
+
+.login-panel-tab {
+  margin-bottom: 20px;
+  align-self: start;
+}
+
+.form-group {
+  margin-bottom: 0.3rem;
+}
+
+.form-check-input-home-page {
+  margin-bottom: 40px;
+  margin-right: 30px;
+  width: 18px;
+  height: 16px;
+}
+
+.home-radio-option-label {
+  margin-right: 30px;
+}
+
+.home-radio-option {
+  margin-right: 10px;
+}
+
+
+.form-check-div {
+  margin-bottom: 30px;
+}
+
+.small-banner-image {
+  display:none;
+}
+
+@media screen and (max-width: 991.98px) {
+  .login-row {
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+  }
+
+  .small-banner-image {
+    display:block;
+    width: 200px;
+    height: 60px;
+    margin-top: 60px;
+  }
+}
+
+.formik-error {
+  color: red;
+}
+
+
+@media screen and (max-width: 576px) {
+  .login-row {
+    background-color: white;
+    /*overflow: hidden;*/
+  }
+
+  .login-panel-tab {
+    overflow: auto;
+  }
+
+  .main-logo {
+    margin-bottom: 20px;
+  }
+
+  .tab-content {
+    margin-bottom: 50px;
+  }
+
+  .small-banner-image {
+    display:block;
+    width: 200px;
+    height: 60px;
+    margin-top: 60px;
+  }
+}
+
+#nav-home-tab {
+  color: black;
+}
+
+#nav-profile-tab {
+  color: black;
+}
+
+
+/***********  LOGIN AND REGISTRATION END *********/
+
+
+
+
+/********** TAG TEAM DASHBOARD *****************/
+#dashboard-form {
+  margin-top: 150px;
+}
+
+.order-card {
+  color: #fff;
+}
+
+.bg-c-blue {
+  background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+.bg-c-green {
+  background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+  background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+  background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+
+
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  border: none;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+  padding: 25px;
+}
+
+.order-card i {
+  font-size: 26px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+#dashboard-row {
+  margin-top: 100px;
+}
+
+
+
+
+/************** TAG TEAM DASHBOARD END *********************/
+

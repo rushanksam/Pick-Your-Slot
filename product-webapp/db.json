@@ -1,0 +1,76 @@
+{
+  "login": [],
+  "registerTagTeam": [
+    {
+      "email": "mayankf599@gmail.com",
+      "mamberName": "mayank bahuguna",
+      "teamName": "teamindia",
+      "password": "password",
+      "id": 1
+    },
+    {
+      "tagMemberEmailId": "mayank@gmail.com",
+      "tagMemberName": "mayank",
+      "tagTeamName": "team43",
+      "password": "password",
+      "id": 2
+    },
+    {
+      "tagMemberEmailId": "mayank@gmail.com",
+      "tagMemberName": "mayank",
+      "tagTeamName": "team43",
+      "tagTeamPassword": "password",
+      "id": 3
+    }
+  ],
+  "registerInterviewer": [
+    {
+      "email": "mayank@gmail.com",
+      "password": "password",
+      "name": "mayank",
+      "techTrack": "1",
+      "id": 1
+    },
+    {
+      "interviewerEmailId": "mayank@gmail.com",
+      "userPassword": "password",
+      "interviewerName": "mayank bahuguna",
+      "techTrack": "2",
+      "id": 2
+    }
+  ],
+  "tagTeamReport": [
+    {
+      "teamName": "teamindia",
+      "month": "jan",
+      "year": "2022",
+      "slotsProvided": 100,
+      "slotsBooked": 40,
+      "slotsBookedByTeam": 10,
+      "slotsMissed": 20,
+      "id": 1
+    },
+    {
+      "teamName": "teamindia",
+      "month": "feb",
+      "year": "2022",
+      "slotsProvided": 200,
+      "slotsBooked": 50,
+      "slotsBookedByTeam": 20,
+      "slotsMissed": 30,
+      "id": 2
+    },
+    {
+      "teamName": "teamindia",
+      "month": "apr",
+      "year": "2022",
+      "slotsProvided": 1000,
+      "slotsBooked": 503,
+      "slotsBookedByTeam": 201,
+      "slotsMissed": 301,
+      "id": 3
+    }
+  ],
+  "booked-slots": [],
+  "available-slots": []
+}
